@@ -20,6 +20,7 @@ public class ScriptBase {
     @AfterTest
     public void tearDown() throws InterruptedException {
         driver.quit();
+        //this is a test
     }
 }
 }
